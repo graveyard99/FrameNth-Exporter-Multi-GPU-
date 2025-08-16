@@ -6,7 +6,7 @@ Export every Nth frame from a video at max speed with GPU decode and smart paral
 
 * Drone and 360 rigs produce huge files.
 * Photogrammetry and splat trainers often need sparse, evenly sampled frames.
-* This app slices timelines across multiple GPUs, spills to RAM if VRAM gets tight, and avoids re-encoding the video itself.
+* This app slices timelines across multiple GPUs, spills to RAM if VRAM gets tight.
 
 ## Features
 
