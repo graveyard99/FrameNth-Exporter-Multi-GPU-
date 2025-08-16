@@ -25,12 +25,7 @@ Export every Nth frame from a video at max speed with GPU decode and smart paral
 
 ## Quick start
 
-1. Download the release ZIP that includes:
-
-   * `FrameNthExporter.exe`
-   * `ffmpeg.exe`
-   * `ffprobe.exe`
-     Unzip and run `FrameNthExporter.exe`.
+1. Download and run the EXE. Check you have FFmpeg and FFprobe installed and in the PATH directory
 
 2. Select:
 
