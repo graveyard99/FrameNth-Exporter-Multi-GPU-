@@ -68,8 +68,6 @@ python -m pip install PySide6 pyinstaller
 pyinstaller --onefile --windowed --name FrameNthExporter frame_nth_exporter_multi_gpu.py
 ```
 
-Copy `ffmpeg.exe` and `ffprobe.exe` next to the built EXE.
-
 ## Notes for image formats
 
 * JPEG has no true zero compression. This app uses q=1 and 4:4:4 for minimal loss.
@@ -86,7 +84,3 @@ Copy `ffmpeg.exe` and `ffprobe.exe` next to the built EXE.
 * OOM or stutters: enable VRAM-safe mode. The app reduces in-flight frames and spills to RAM. It will auto retry chunks on CPU if needed.
 * No GPU listed: update NVIDIA driver. The app falls back to CPU if NVDEC is unavailable.
 * Wrong file numbering when slicing tiny clips: reduce chunks.
-
-## License
-
-MIT. Use at your own risk.
